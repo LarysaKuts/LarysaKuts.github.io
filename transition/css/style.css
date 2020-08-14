@@ -848,7 +848,7 @@ ul {
   width: 234px;
 }
 /*icons*/
-/*.boxIcons {
+.boxIcons {
   height: 150px;
   background-color: lightblue;
   margin-top: 10px;
@@ -883,4 +883,4 @@ ul {
 }
 .icons li + li + li + li:hover a {
   background-position: -700px, 0;
-}*/
+}
