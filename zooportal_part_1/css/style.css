@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400;1,700&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap");
+@font-face {
+  font-family: "bebas_neue_cyrillicregular";
+  src: url("/fonts/bebas_neue_cyrillicregular/bebas_neue_cyrillic-webfont.eot");
+  src: url("/fonts/bebas_neue_cyrillicregular/bebas_neue_cyrillic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/bebas_neue_cyrillicregular/bebas_neue_cyrillic-webfont.woff2")
+      format("woff2"),
+    url("/fonts/bebas_neue_cyrillicregular/bebas_neue_cyrillic-webfont.woff")
+      format("woff"),
+    url("/fonts/bebas_neue_cyrillicregular/bebas_neue_cyrillic-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*______________________*/
+
+.conteiner {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.conteiner__inner {
+  background-color: #6ac4b8;
+  height: 220px;
+}
+
+.header {
+  margin-bottom: 29px;
+}
+
+/*service menu*/
+
+.service__menu {
+  height: 34px;
+  background: url('/images/paws_2.png') center;
+  background-color: #8cd3c9;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.service__menu ul li {
+  display: inline-block;
+  font-size: 0;
+  margin: 10px 0 0 0;
+  padding: 0 25px 0 25px;
+}
+
+.service__menu ul {
+  background: url('/images/paws_upper_menu.png') no-repeat center;
+}
+
+.service__menu a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.service__menu a:hover {
+  text-decoration: underline;
+}
+
+/*header__inner*/
+
+.header__inner {
+  display: flex;
+  margin-top: 11px;
+  border-bottom: 1px solid #99dad2;
+}
+
+/*logo*/
+
+.logo {
+  width: 111px;
+  height: 81px;
+  margin-bottom: 8px;
+}
+
+.logo p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #157d8c;
+  padding: 0 19px 0 7px;
+}
+
+figure {
+  width: 115px;
+}
+
+/*search*/
+
+.search {
+  margin-left: 116px;
+}
+
+.search label {
+  display: block;
+  width: 450px;
+  margin-bottom: 10px;
+  margin-top: 24px;
+  color: #157d8c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.search span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+input[type="search"] {
+  float: left;
+  width: 411px;
+  height: 30px;
+  border: 0;
+}
+
+input::placeholder {
+  color: #6ac4b8;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 9px 304px 9px 19px;
+}
+
+input[type="submit"] {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url('/images/search_item.png') no-repeat center;
+  background-color: #157d8c;
+  margin-left: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #288796;
+}
+
+/*puppy__header*/
+
+.white_puppy {
+  margin-left: 110px;
+}
+
+/*service menu*/
+.menu {
+  text-align: center;
+  margin: 17px 0 0 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  font-size: 0;
+  padding: 0 30px 0 29px;
+}
+
+.menu ul {
+  background: url('/images/paws_main_menu.png') no-repeat center;
+}
+
+.menu a {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  letter-spacing: 0.4px;
+}
+
+.menu a:hover {
+  color: rgb(219, 219, 219);
+}
+
+/*slider*/
+
+.slider__survey__inner {
+  display: flex;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-right: 30px;
+  margin-bottom: 28px;
+}
+
+.slider_text_one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 29px 365px 0 39px;
+  font-size: 36px;
+  color: #fed34f;
+}
+
+.slider_text_two {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  padding: 0 365px 0 39px;
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+}
+
+.slider_text_one,
+.slider_text_two {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "bebas_neue_cyrillicregular";
+}
+
+.slider__dots {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 285px;
+  margin-bottom: 17px;
+}
+
+.slider__dots ul li {
+  display: inline-block;
+  color: #f3f3f300;
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 0 0 5px;
+}
+
+.slider__dots li:active {
+  background-color: white;
+}
+
+.slider__dots li:first-child {
+  background-color: white;
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #383838;
+  margin: 0 0 0 156px;
+}
+
+/*aside__survey*/
+
+.survey {
+  width: 300px;
+  height: 325px;
+  background-color: #f3f3f3;
+}
+
+.title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #383838;
+  margin: 0 23px 33px 0;
+}
+
+.survey__title {
+  width: 300px;
+  height: 39px;
+  background-color: #fed34f;
+  margin-bottom: 28px;
+}
+
+.survey__title p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 9px 0;
+}
+
+.checkbox {
+  margin-left: 23px;
+  
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+input[type="checkbox"] + label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #999999;
+  margin-bottom: 20px;
+  cursor: pointer;
+  
+}
+
+input[type="checkbox"] + label:hover {
+  color: #383838;
+  
+}
+
+input[type="checkbox"] + label:before {
+  content: "";
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #e3e3e3;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:not(:disabled):not(:checked) + label:hover:before {
+  border-color: #b3d7ff;
+}
+
+input[type="checkbox"]:not(:disabled):active + label:before {
+  background-color: #ffffff;
+  border-color: #e3e3e3;
+}
+
+input[type="checkbox"]:focus:not(:checked) + label:before {
+  border-color: #e3e3e3;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: #fed34f;
+  background-image: url('/images/check.svg');
+  background-repeat: no-repeat;
+  background-position: 1px 2px;
+}
+
+input[type="checkbox"]:disabled + label:before {
+  background-color: #fed34f;
+}
+
+.checkbox {
+  margin-bottom: 40px;
+}
+
+/*survey__links*/
+
+.survey__links li a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fed34f;
+  text-decoration: none;
+  margin: 0 16px 0 0;
+  padding-top: 25px;
+  width: 16px;
+  height: 16px;
+  background: url('/images/yellow_paw.png') no-repeat;
+  background-position: 40px 2px;
+}
+.survey__links ul {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.survey__links li a:last-child {
+  margin-right: 0;
+}
+
+.survey__links li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
