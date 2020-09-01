@@ -166,7 +166,7 @@ table {
 
 .service__menu {
   height: 34px;
-  background: url('/images/paws_2.png') center;
+  background: url("../images/paws_2.png") center;
   background-color: #8cd3c9;
   text-align: center;
   margin: 10px 0 0 0;
@@ -180,7 +180,7 @@ table {
 }
 
 .service__menu ul {
-  background: url('/images/paws_upper_menu.png') no-repeat center;
+  background: url("../images/paws_upper_menu.png") no-repeat center;
 }
 
 .service__menu a {
@@ -268,7 +268,7 @@ input[type="submit"] {
   float: left;
   width: 30px;
   height: 30px;
-  background: url('/images/search_item.png') no-repeat center;
+  background: url("../images/search_item.png") no-repeat center;
   background-color: #157d8c;
   margin-left: 5px;
   border: 0;
@@ -298,7 +298,7 @@ input[type="submit"]:hover {
 }
 
 .menu ul {
-  background: url('/images/paws_main_menu.png') no-repeat center;
+  background: url("../images/paws_main_menu.png") no-repeat center;
 }
 
 .menu a {
@@ -473,7 +473,7 @@ input[type="checkbox"]:focus:not(:checked) + label:before {
 
 input[type="checkbox"]:checked + label:before {
   background-color: #fed34f;
-  background-image: url('/images/check.svg');
+  background-image: url("../images/check.svg");
   background-repeat: no-repeat;
   background-position: 1px 2px;
 }
@@ -498,7 +498,7 @@ input[type="checkbox"]:disabled + label:before {
   padding-top: 25px;
   width: 16px;
   height: 16px;
-  background: url('/images/yellow_paw.png') no-repeat;
+  background: url("../images/yellow_paw.png") no-repeat;
   background-position: 40px 2px;
 }
 .survey__links ul {
