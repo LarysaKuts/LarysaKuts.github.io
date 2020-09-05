@@ -242,6 +242,7 @@ input[type="search"] {
   width: 411px;
   height: 30px;
   border: 0;
+  padding: 9px 0 9px 19px;
 }
 
 input::placeholder {
@@ -249,7 +250,7 @@ input::placeholder {
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  padding: 9px 304px 9px 19px;
+  
 }
 
 .search input[type="submit"] {
@@ -281,25 +282,27 @@ input::placeholder {
   background-color: #6ac4b8;
 }
 
-.menu li a:before {
-  content: "";
-  position: absolute;
-  width: 18px;
-  height: 20px;
-  top: 0;
-  left: 0;
-  background: url("../images/green_paw.png") no-repeat center;
+.menu a {
+  display: block;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  letter-spacing: 0.4px;
+}
+
+.menu a:hover {
+  color: rgb(219, 219, 219);
 }
 
 .menu ul li {
   display: inline-block;
-  font-size: 0;
-  margin: 0 26px 0 -4px;
-}
-
-.menu ul li:last-child {
   position: relative;
-  padding: 17px 0 17px 0;
+  margin: 10px 26px 10px -4px;
+  padding-left: 34px;
+  background: url("../images/green_paw.png") no-repeat center;
+  background-position: 3px -2px;
 }
 
 .menu ul li:last-child:after {
@@ -307,24 +310,10 @@ input::placeholder {
   position: absolute;
   width: 18px;
   height: 20px;
-  top: 16px;
-  right: -32px;
+  top: 0;
+  right: -30px;
   background: url("../images/green_paw.png") no-repeat center;
-}
-
-.menu a {
-  font-size: 20px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  letter-spacing: 0.4px;
-  position: relative;
-  padding: 0 0 0 33px;
-}
-
-.menu a:hover {
-  color: rgb(219, 219, 219);
+  background-position: 1px -2px;
 }
 
 /*slider*/
@@ -381,10 +370,6 @@ input::placeholder {
   border-radius: 50%;
   cursor: pointer;
   margin: 0 0 0 5px;
-}
-
-.slider__dots li:first-child {
-  background-color: white;
 }
 
 .slider__dots li:first-child:active {
@@ -758,7 +743,6 @@ input[type="checkbox"]:disabled + label:before {
   color: #383838;
   text-align: center;
   margin-bottom: 10px;
-  
 }
 .useful__advice h2 {
   background: white;
