@@ -1,0 +1,1013 @@
+@font-face {
+  font-family: "Proxima Nova Lt";
+  src: url("../fonts/ProximaNova-Light.eot");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Lt";
+  src: url("../fonts/ProximaNova-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Lt";
+  src: url("../fonts/ProximaNova-Light.woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Regular.eot");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Bold.eot");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Th";
+  src: url("../fonts/ProximaNovaT-Thin.eot");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Th";
+  src: url("../fonts/ProximaNovaT-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Th";
+  src: url("../fonts/ProximaNovaT-Thin.woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.intro {
+  background: radial-gradient(
+      circle farthest-side at 85% 20%,
+      #313066,
+      rgba(28, 36, 65, 0.94) 30%,
+      rgba(28, 36, 65, 0.94)
+    ),
+    url("../img/intro_img.png") no-repeat;
+  background-size: cover;
+  height: 1237px;
+  max-height: 100%;
+  position: relative;
+}
+
+/* Navbar */
+
+.nav .nav-link {
+  font-family: "Proxima Nova Lt";
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 300;
+}
+
+.nav .btn-primary {
+  font-family: "Proxima Nova Lt";
+  font-size: 18px;
+  line-height: 48px;
+}
+
+.nav-item {
+  margin: 0 30px 0 30px;
+}
+
+.navbar-brand {
+  margin-top: 55px;
+}
+
+.navbar-collapse {
+  margin-top: 100px;
+}
+
+/* Navbar content */
+
+.header-text {
+  font-family: "Proxima Nova Th";
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 100;
+  margin-top: 300px;
+}
+
+.header-head {
+  font-family: "Proxima Nova Rg";
+  font-size: 60px;
+  font-weight: 700;
+  
+}
+
+
+.header-head span {
+  color: #00a8ff;
+}
+
+
+.information {
+  background: white;
+  position: relative;
+  top: 0px;
+}
+
+
+.information:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: -53px;
+  left: 19px;
+  background: rgb(250, 250, 250);
+  transform: rotate(-5deg) skewX(-5deg);
+  z-index: 1;
+}
+
+/* Pre Section Boxes */
+
+.intro__cards {
+  position: relative;
+  top: -160px;
+  z-index: 2;
+}
+
+.information .card {
+  border-radius: 0;
+  
+}
+
+.one .card-title {
+  margin-bottom: 22%;
+}
+
+.one {
+  background: url("../img/schedule.png") no-repeat center center;
+  background-color: rgba(244, 67, 54, 0.9);
+  background-blend-mode: multiply;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.icon_one {
+  padding-left: 30px;
+  margin-left: 20px;
+}
+
+.icon_one:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 21px;
+  height: 26px;
+  width: 16px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -10px -154px;
+}
+
+.two {
+  background: url("../img/premium_membership.png") no-repeat;
+  background-color: rgba(76, 175, 80, 0.9);
+  background-blend-mode: multiply;
+  background-size: cover;
+  min-height: 285;
+  max-height: 100%;
+}
+
+.two .card-title {
+  margin-bottom: 9%;
+}
+
+.icon_two,
+.icon_three {
+  margin-left: 45px;
+}
+
+.icon_two:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 21px;
+  height: 20px;
+  width: 20px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -46px -154px;
+}
+
+.three {
+  background: url("../img/adam_jordan.png") no-repeat;
+  background-color: rgba(0, 168, 255, 0.9);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.three .card-title {
+  margin-bottom: 25%;
+}
+
+.icon_three:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 21px;
+  height: 20px;
+  width: 23px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -164px -96px;
+}
+
+.today {
+  font-family: "Proxima Nova Rg";
+  font-size: 24px;
+  line-height: 59px;
+  font-weight: 700;
+}
+
+.two .card-title,
+.three .card-title {
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 59px;
+  font-weight: 400;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators li {
+  height: 8px;
+  width: 8px;
+  border-color: white;
+}
+
+.register {
+  font-family: "Proxima Nova Rg";
+  font-size: 24px;
+  line-height: 59px;
+  font-weight: 400;
+}
+
+.discount {
+  font-family: "Proxima Nova Rg";
+  font-size: 36px;
+  line-height: 59px;
+  font-weight: 700;
+}
+
+.happy {
+  font-family: "Proxima Nova Rg";
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.adam {
+  opacity: 0.8;
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+/* Service Section */
+
+.service__section {
+  position: relative;
+}
+
+.services {
+  height: 430px;
+}
+
+.services__title {
+  font-family: "Proxima Nova Rg";
+  font-size: 48.2px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 5%;
+}
+
+.services__text {
+  font-family: "Proxima Nova Rg";
+  font-size: 24px;
+  line-height: 47px;
+  font-weight: 300;
+  color: #bbbbbb;
+}
+
+.services__cards {
+  margin-bottom: 180px;
+  
+}
+
+.service__one,
+.service__two,
+.service__three {
+  position: relative;
+  border: 1px solid #dddddd;
+}
+
+.service__one:hover,
+.service__two:hover,
+.service__three:hover {
+  border: 1px solid #00a8ff;
+  cursor: pointer;
+}
+
+.service__one h5,
+.service__three h5 {
+  font-family: "Proxima Nova Rg";
+  font-size: 24.1px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+.service__two h5 {
+  font-family: "Proxima Nova Rg";
+  font-size: 24.1px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 55px;
+  margin-bottom: 35px;
+
+}
+
+.service__one:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 42px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -10px -92px;
+  margin-left: -25px;
+  margin-top: -42px;
+}
+
+.service__two:before {
+  content: "";
+  position: absolute;
+  top: -8%;
+  left: 50%;
+  width: 64px;
+  height: 62px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -10px -10px;
+  margin-left: -25px;
+
+}
+
+.service__three:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -94px -10px;
+  margin-left: -25px;
+  margin-top: -42px;
+}
+
+.yoga__text {
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #999999;
+}
+
+/* Team Section */
+
+.team__section {
+  min-height: 1308px;
+  max-height: 100%;
+  background-color: #f7f7f7;
+  position: relative;
+    
+}
+
+.team__section:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: -62px;
+  left: 18px;
+  background: #f7f7f7;
+  transform: rotate(-5deg) skewX(-5deg);
+  z-index: 1;
+}
+
+.team__section__title {
+  font-family: "Proxima Nova Rg";
+  font-size: 48.2px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 335px;
+  position: relative;
+  z-index: 2;
+}
+
+.team__section__title__text {
+  font-family: "Proxima Nova Rg";
+  font-size: 24px;
+  line-height: 47px;
+  font-weight: 300;
+  color: #bbbbbb;
+  margin-bottom: 160px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Team Cards */
+
+.member__one,
+.member__two,
+.member__three {
+  position: relative;
+}
+
+.member__one__photo,
+.member__two__photo,
+.member__three__photo {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.member__one__photo:after,
+.member__two__photo:after,
+.member__three__photo:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(48, 59, 100, 0) 100%
+  );
+  background-position: bottom center;
+}
+
+.member__one__photo:hover:after,
+.member__two__photo:hover:after,
+.member__three__photo:hover:after {
+  background: rgba(0, 168, 255, 0.9);
+  -webkit-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+}
+
+.member__one__photo:before,
+.member__two__photo:before,
+.member__three__photo:before {
+  content: "";
+  position: absolute;
+  left: 34%;
+  bottom: -63px;
+  width: 120px;
+  height: 120px;
+  z-index: 1;
+}
+
+.member__one__photo:before {
+  background: url("../img/eva4.png") no-repeat;
+}
+
+.member__two__photo:before {
+  background: url("../img/nick.png") no-repeat;
+}
+
+.member__three__photo:before {
+  background: url("../img/john.png") no-repeat;
+}
+
+.price {
+  font-family: "Proxima Nova Rg";
+  font-size: 30.4px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-bottom: -17px;
+  z-index: 2;
+}
+
+.session {
+  opacity: 0.6;
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photo__text {
+  display: none;
+}
+
+.member__one__photo:hover .photo__text,
+.member__two__photo:hover .photo__text,
+.member__three__photo:hover .photo__text {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+.member__one .card-title,
+.member__two .card-title,
+.member__three .card-title {
+  font-family: "Proxima Nova Rg";
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: -15px;
+}
+
+.member__one .card-text,
+.member__two .card-text,
+.member__three .card-text {
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #bbbbbb;
+}
+
+.member__one .btn,
+.member__two .btn,
+.member__three .btn {
+  border-radius: 0;
+}
+
+.sign__up {
+  width: 165px;
+  height: 54px;
+  border: 1px solid #00a8ff;
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #00a8ff;
+  padding-top: 0px;
+}
+
+/* Pricing Section */
+
+.pricing__section {
+  min-height: 1145px;
+  max-height: 100%;
+  background: url("../img/pricing.png") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.pricing__section .pricing__title {
+  font-family: "Proxima Nova Rg";
+  font-size: 48.2px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-top: 160px;
+}
+
+.pricing__section .pricing__text {
+  font-family: "Proxima Nova Rg";
+  font-size: 24px;
+  line-height: 47px;
+  font-weight: 300;
+  margin-bottom: 155px;
+}
+
+.pricing__section .card {
+  border: 0;
+}
+
+.pricing__yoga__pilates,
+.pricing__yoga__pilates__list {
+  border-radius: 0;
+  min-height: 296px;
+  background-color: #00a8ff;
+}
+
+
+.pricing__yoga__pilates h5,
+.pricing__cardio__training h5 {
+  margin-block-end: 0;
+  margin-top: 30px;
+  font-family: "Proxima Nova Rg";
+  font-size: 24.1px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.pricing__yoga__pilates p,
+.pricing__cardio__training p {
+  font-family: "Proxima Nova Rg";
+  font-size: 30.4px;
+  line-height: 47px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+.pricing__yoga__pilates span,
+.pricing__cardio__training span {
+  font-size: 18px;
+}
+
+.pricing .btn {
+  border-color: white;
+  border-radius: 0;
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 165px;
+  height: 54px;
+  padding-top: 0;
+}
+
+.pricing .btn:hover,
+.pricing__cardio__training .btn:hover {
+  background-color: white;
+  color: #00a8ff;
+}
+
+.pricing__yoga__pilates__list ul {
+  list-style-type: square;
+}
+
+.pricing__yoga__pilates__list li {
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.pricing__cardio__training {
+  min-height: 296px;
+  background-color: #bbbbbb;
+  border-radius: 0;
+}
+
+/* Twitter Section */
+
+.twitter__section {
+  height: 572px;
+  background-color: #00a8ff;
+}
+
+.twitter__section .carousel-item {
+  min-height: 256px;
+}
+
+.twitter__section h5 {
+  font-family: "Proxima Nova Rg";
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 300;
+  position: relative;
+}
+
+.twitter__section p {
+  font-family: "Proxima Nova Rg";
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 300;
+  color: #93daff;
+}
+
+.twitter__section h5:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 26px;
+  height: 21px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -163px -55px;
+  margin-top: -110px;
+  margin-left: -10px;
+}
+
+.twitter__section .carousel {
+  padding-top: 150px;
+}
+
+/* Footer */
+
+.footer {
+  min-height: 591px;
+  background: radial-gradient(
+      circle farthest-side at 80% 30%,
+      #313066,
+      rgba(28, 36, 65, 0.94) 30%,
+      rgba(28, 36, 65, 0.94)
+    ),
+    url("../img/footer___img.png") no-repeat;
+  background-size: cover;
+}
+
+.reserve {
+  background: none;
+  margin-top: 160px;
+  border: none;
+}
+
+.reserve__title,
+.opening__title {
+  font-family: "Proxima Nova Rg";
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.reserve__text {
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #bbbbbb;
+  margin-bottom: 58px;
+}
+
+.btn__text {
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #feffff;
+}
+
+.reserve .btn {
+  border-radius: 0;
+  width: 174px;
+  height: 54px;
+  background-color: #00a8ff;
+  padding-top: 0;
+}
+
+.opening {
+  background: none;
+  margin-top: 160px;
+  border: none;
+}
+
+.opening__title {
+  margin-bottom: 55px;
+  position: relative;
+  width: 240px;
+  padding-right: 22px;
+}
+
+.opening__title:after {
+  content: "";
+  position: absolute;
+  top: 23%;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  border: 5px solid rgba(0, 0, 0, 0.582);
+}
+
+.copyright {
+  margin-top: 165px;
+}
+
+.copyright p {
+  font-family: "Proxima Nova Rg";
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #545662;
+}
+
+.copyright span {
+  color: #00a8ff;
+}
+
+.facebook,
+.twitter,
+.linkedin {
+  font-size: 0;
+  position: relative;
+}
+
+.facebook,
+.twitter {
+  margin-right: 50px;
+}
+
+.facebook:after,
+.twitter:after,
+.linkedin:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.facebook:after {
+  width: 14px;
+  height: 25px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -212px -9px;
+  margin-top: -10px;
+  margin-left: -14px;
+}
+
+.twitter:after {
+  width: 26px;
+  height: 21px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -163px -55px;
+  margin-top: -8px;
+  margin-left: -14px;
+}
+
+.linkedin:after {
+  width: 28px;
+  height: 25px;
+  background: url("../img/cardio_sprites.png") no-repeat;
+  background-position: -163px -10px;
+  margin-top: -10px;
+  margin-left: -14px;
+}
+
+
+
+@media (max-width: 374px) {
+  .header-text {
+    font-size: 26px;
+    
+  }
+
+  .header-head {
+    font-size: 40px;
+  }
+
+ 
+
+  .card-title .today {
+    margin-bottom: 0px;
+  }
+  .today {
+    font-size: 20px;
+    line-height: 0px;
+  }
+
+  .card .row p {
+    margin-bottom: 14px;
+  }
+  .services {
+    margin-bottom: 0px;
+    height: 330px;
+  }
+
+  .navbar-brand {
+    margin-top: 0px;
+  }
+
+  .copyright__social {
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+  }
+
+  .pricing__cardio__training {
+    margin-bottom: 30px;
+  }
+
+
+}
+
+@media (max-width: 425px) {
+  .services {
+    margin-bottom: 0;
+  }
+
+  .navbar-brand {
+    margin-top: 5px;
+  }
+
+  .twitter__section {
+    display: none;
+  }
+
+  .copyright__social {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 768px) {
+  .services {
+    margin-bottom: 0;
+  }
+  .yoga__text {
+    font-size: 15px;
+  }
+
+  .navbar-brand {
+    margin-top: 45px;
+  }
+
+  .information:after {
+    border-top-left-radius: 40%;
+  }
+
+  .pricing__cardio__training {
+    margin-bottom: 30px;
+  }
+
+  .team__section {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .information:after {
+    border-top-left-radius: 40%;
+  }
+
+
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler {
+    background-color: white;
+  }
+  .navbar-brand {
+    margin-top: 5px;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .header-head {
+    font-size: 50px;
+  }
+
+
+}
