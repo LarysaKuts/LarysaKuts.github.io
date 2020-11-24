@@ -1,0 +1,72 @@
+body {
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 100vw;
+  transform: scale(1);
+}
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+.main__circle {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  background: url("../image/circle.png") center no-repeat;
+  background-color: lightblue;
+  border-radius: 50%;
+  animation: 8s linear 0s infinite rotating;
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.main__text {
+  position: fixed;
+  display: inline-block;
+  text-align: center;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.main__text h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.main__text--one {
+  top: 15%;
+  left: 40%;
+}
+.main__text--two {
+  top: 15%;
+  left: 55%;
+}
+
+.main__text--three {
+  top: 37%;
+  left: 33%;
+}
+.main__text--four {
+  top: 62%;
+  left: 40%;
+}
+.main__text--five {
+  top: 56%;
+  left: 55%;
+}
+
+.main__text--six {
+  top: 38%;
+  left: 45%;
+}
+
+
